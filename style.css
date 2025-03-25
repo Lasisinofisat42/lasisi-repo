@@ -1,0 +1,75 @@
+
+a {
+     display: inline-block;
+    /* border: 2px solid rgb(230, 223, 230); */
+    margin: 5px;
+    color:rgb(130, 57, 119);
+    padding: 10px;
+    background-color: white;
+    border: 10px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+header{
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+
+h1{
+    color:rgb(129, 27, 142);
+    font-size: 60px;
+    
+}
+p{
+    color: white;
+}
+.email-icon {
+    font-size: 40px;
+    color: #FF5733;    
+    transition: color 0.3s ease; 
+  }
+  
+  .email-icon:hover {
+    color: #28a745;     
+  }
+  .email-icon {
+    width: 50px;
+    height: 50px;
+    fill: #FF5733;
+    transition: fill 0.3s ease; 
+  }
+  
+  .email-icon:hover {
+    fill: #28a745;   
+  }
+  div.nafisat{
+    margin: 100px;
+  }
+  /* div.naffy{
+    margin: bottom 0;
+  } */
+/* header:hover{ */
+  /* color: purple; */
+  /* transition: color 0.3 ease; */
+  /* background-color: purple; */
+/* } */
+a:hover{
+  color: white;
+  transition: 0.3 ease;
+  background-color: purple;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 40%; /* Position the text vertically */
+  left: 10%; /* Position the text horizontally */
+  transform: translate(-50%, -50%); /* Center the text */
+  font-size: 70px;
+  color: rgb(113, 37, 89); /* Set the text color */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional text shadow for better visibility */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}

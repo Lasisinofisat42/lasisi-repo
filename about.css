@@ -1,0 +1,27 @@
+a {
+    display: inline-block;
+    /* border: 2px solid rgb(230, 223, 230); */
+    margin: 30px;
+    color: rgb(130, 57, 119);
+    padding: 10px;
+    background-color: white;
+    border: 10px;
+    border-radius: 10px;
+}
+header{
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+a:hover{
+    color: white;
+    transition: 0.3 ease;
+    background-color: purple;
+  }
